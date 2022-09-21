@@ -47,32 +47,40 @@
     color: #0f0f0f;
 }
 
-body{
+body {
     padding: 50px 0px 0px 0px;
     z-index: 0;
 }
 
-.navbar-dark{
+.navbar-dark {
     background-color: #512DA8;
 }
 
-.tab-content{
+.tab-content {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
 
-.carousel{
+.carousel {
     background-color: #512DA8;
 }
-.carousel-item{
+
+.carousel-item {
     height: 300px;
 }
 
-.carousel-item img{
+.carousel-item img {
     position: absolute;
     top: 0;
     left: 0;
     min-height: 300px;
+}
+
+#carouselButton{
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
 }
